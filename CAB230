@@ -1,1 +1,26 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Park Reviewer</title>
+	<link href="CAB230.css" rel="stylesheet" type="text/css"/> 
+	<div class="searchpage">
+	<h1> Park Reviewer </h1>
+	</div>
+	</head>
+	<body>
+	<div class="navigation">
+	<a href="<!-- insert a link here-->">Login</a>
+	<a href="<!-- insert a link here-->">Register</a>
+	<a href="<!-- insert a link here-->">Search</a>
+	</div>
+	<div class="pagelocation">
+		<h2>Search</h2>
+	</div>
+	<p> Search for parks: </p>
+	<form>
+		<label for="location">Location</label>
+		<input type="text" id="location" name="location">
+	</form>
+	<input type="Button" value="Search">
+	</body>
+</html>

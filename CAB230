@@ -3,7 +3,7 @@
 	<head>
 		<title> Park Reviewer</title>
 	<link href="CAB230.css" rel="stylesheet" type="text/css"/> 
-	<div class="searchpage">
+	<div class="websitetitle">
 	<h1> Park Reviewer </h1>
 	</div>
 	</head>

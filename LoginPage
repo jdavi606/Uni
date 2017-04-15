@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="CAB230.css" rel="stylesheet" type="text/css"/> 
+    <script 
+    type="text/javascript" src="CAB230.js">
+    </script>
+<title>Park Reviewer Signup</title>
+</head>
+<body>
+    <div class="websitetitle">   
+        <h1>Park Reviewer</h1>
+    </div>
+    <div class="navigation">
+	   <a href="<!-- insert a link here-->">Login</a>
+	   <a href="<!-- insert a link here-->">Register</a>
+	   <a href="<!-- insert a link here-->">Search</a>
+	</div>
+    <div class="pagelocation">
+		<h2>Sign In</h2>
+	</div>
+    
+<div class="LoginForm">
+  <form>
+    
+Email:<br>
+<input type="email" name="emailadd" style=margin-top:10px;margin-bottom:20px;width:100%;>
+<br><br>
+
+Password:<br>
+<input type="password" name="pass" style=margin-top:10px;margin-bottom:20px;width:75%>
+<br><br>
+      
+<div class="LoginButton">
+<input type="submit" value="Login">  
+</div>
+      
+</form>  
+</div>
+    
+</body>
+</html>

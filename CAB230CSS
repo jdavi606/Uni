@@ -1,4 +1,4 @@
-div.searchpage {
+div.websitetitle {
  border-style: solid;
  border-width: 10px;
  border-color: green;

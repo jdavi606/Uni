@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title> Park Reviewer</title>
-	<link href="CAB230.css" rel="stylesheet" type="text/css"/> 
-	<div class="websitetitle">
-	<h1> Park Reviewer </h1>
-	</div>
-	</head>
-	<body>
-	<div class="navigation">
-	<a href="<!-- insert a link here-->">Login</a>
-	<a href="<!-- insert a link here-->">Register</a>
-	<a href="<!-- insert a link here-->">Search</a>
-	</div>
-	<div class="pagelocation">
-		<h2>Search</h2>
-	</div>
-	<p> Search for parks: </p>
-	<form>
-		<label for="location">Location</label>
-		<input type="text" id="location" name="location">
-	</form>
-	<input type="Button" value="Search">
-	</body>
+<head>
+	<title> Park Reviewer</title>
+<link href="CAB230.css" rel="stylesheet" type="text/css"/> 
+<div class="websitetitle">
+<h1> Park Reviewer </h1>
+</div>
+</head>
+<body>
+<div class="navigation">
+<a href="<!-- insert a link here-->">Login</a>
+<a href="<!-- insert a link here-->">Register</a>
+<a href="<!-- insert a link here-->">Search</a>
+</div>
+<div class="pagelocation">
+	<h2>Search</h2>
+</div>
+<h1 style = "text-align: center; font-size: 25px;">Search for parks</h1>
+<div class="searchform">
+<form>
+	<label for="location">Location:</label> <br>
+	<input type="text" id="location" name="location" style="width: 50%">
+</form> <br><br>
+<label for = "suburb">Suburb:</label> <br>
+<select name="Suburb">
+ <option value=“Brisbane">Brisbane</option>
+ <option value=“Sunnypark">Sunnypark</option>
+ <option value=“Springfield">Springfield</option>
+</select> <br><br><br>
+<form>
+	<label for="postcode">Postcode:</label> <br>
+	<input type="text" id="postcode" name="postcode" style="width: 10%">
+</form> <br>
+<input type="Submit" value="Search">
+</div>
+</body>
 </html>

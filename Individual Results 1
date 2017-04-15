@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Park Reviewer</title>
+<link href="CAB230.css" rel="stylesheet" type="text/css"/> 
+<div class="websitetitle">
+<h1> Park Reviewer </h1>
+</div>
+</head>
+<body>
+<div class="navigation">
+<a href="<!-- insert a link here-->">Login</a>
+<a href="<!-- insert a link here-->">Register</a>
+<a href="<!-- insert a link here-->">Search</a>
+</div>
+<div class="pagelocation">
+	<h2>Botanical Gardens</h2>
+</div>
+<div class="individualform">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3552.114118698533!2d153.0270601027357!3d-27.47471483462369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a108730630b%3A0xf02a35bd721b830!2sCity+Botanic+Gardens!5e0!3m2!1sen!2sau!4v1492270436396" width="70%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
+<br>
+
+<h1 style="font-size:25px;"> Park Details </h1>
+<div class="infobox">
+<p style="font-size:20px;"> Name: Botanical Gardens</p>
+<p style="font-size:20px;"> Location: Brisbane City</p>
+<p style="font-size:20px;"> Average Rating: 5</p>
+</div> <br>
+
+<h1 style="font-size:25px;"> Reviews </h1>
+<div class="reviewbox">
+<p style="font-size:15px;"> Joshua Davianto 16/04/2017 5 Stars</p>
+<p style="font-size:20px;"> Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content </p>
+</div>
+<div class="reviewbox">
+<p style="font-size:15px;"> Samuel Chui 16/04/2017 5 Stars</p>
+<p style="font-size:20px;"> Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content Content </p>
+</div>
+
+<div class="commentbox">
+<p style="font-size:15px;"> <a href="<!-- insert a link here-->" style="font-size:15px;">Login</a> or <a href="<!-- insert a link here-->" style="font-size:15px;">Sign up</a> to leave a review </p>
+</div>
+
+</div>
+</body>
+</html>

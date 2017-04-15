@@ -44,19 +44,44 @@ div.navigation a:hover {
 }
 
 body {
-background-color:	#23DAD4;
+background-color:	aliceblue;
+margin-left:5%;
+margin-right:5%;
 }
 
 div.searchbar {
 	width:25%;
 }
 
-input[type=button] {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
+div.signupform{
+    font-size: 20px;
+    text-align: center;
+    background-color:azure;
+    margin-top: 60px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 20%;
+    border: 5px;
+    border-color: deepskyblue;
+    border-style: solid;
+    border-radius: 70px;
+    padding: 10%;    
 }
+
+input[type=submit] {
+  font-size: 200%;  
+}
+
+div.searchform{
+    text-align: center;
+    background-color:azure;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px;
+    border-color: deepskyblue;
+    border-style: solid;
+    border-radius: 70px;
+    padding: 50px;
+    font-size: 25px;
+}
+

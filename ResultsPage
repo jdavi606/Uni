@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="CAB230.css" rel="stylesheet" type="text/css"/> 
+    <script 
+    type="text/javascript" src="CAB230.js">
+    </script>
+<title>Park Reviewer Signup</title>
+</head>
+<body>
+    
+    <div class="websitetitle">   
+        <h1>Park Reviewer</h1>
+    </div>
+    
+    <div class="navigation">
+	   <a href="LoginPage.html">Login</a>
+	   <a href="registration%20page.html">Register</a>
+	   <a href="SearchPage.html">Search</a>
+	</div>
+    
+    <div class="pagelocation">
+		<h2>Results</h2>
+	</div>
+    
+    <div class="ResultsList">
+        
+    <table class="Results">
+    <th>Name of Park</th>
+    <th>Location</th>
+    <th>Phone Number</th>
+    <th>Rating</th>
+        
+    <tr>
+    <td><a href="Indiv2.html">Park 1(Indiv2)</a></td>
+        <td>Brisbane</td>
+        <td>(07)********</td>
+        <td>4.5</td>
+    </tr>
+    
+    <tr>
+    <td><a href="<!-- insert a link here-->">Park 2</a></td>
+        <td>Brisbane</td>
+        <td>(07)********</td>
+        <td>2.3</td>
+    </tr>
+        
+    <tr>
+    <td><a href="<!-- insert a link here-->">Park 3</a></td>
+        <td>Brisbane</td>
+        <td>(07)********</td>
+        <td>4</td>
+    </tr>
+        
+    <tr>
+    <td><a href="<!-- insert a link here-->">Park 4</a></td>
+        <td>Brisbane</td>
+        <td>(07)********</td>
+        <td>3.8</td>
+    </tr>
+        
+    </table>
+    </div>
+    
+    
+</body>    
+</html>

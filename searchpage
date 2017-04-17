@@ -12,9 +12,9 @@
 </head>
 <body>
 <div class="navigation">
-<a href="<!-- insert a link here-->">Login</a>
-<a href="<!-- insert a link here-->">Register</a>
-<a href="<!-- insert a link here-->">Search</a>
+<a href="LoginPage.html">Login</a>
+<a href="SignupPage.html">Register</a>
+<a href="SearchPage.html">Search</a>
 </div>
 <div class="pagelocation">
 	<h2>Search</h2>
@@ -43,7 +43,7 @@ Postcode: <br>
 <!--The onclick function inside the button form allows the button to link to the results page.-->
 
 <div>
-<input type="submit" onclick="location.href = 'cab230results.html';" value="Search" >
+<input type="submit" onclick="location.href = 'ResultsPage.html';" value="Search" >
 </div>
 
 </div>

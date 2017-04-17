@@ -9,15 +9,15 @@
 </head>
 <body>
 <div class="navigation">
-<a href="<!-- insert a link here-->">Login</a>
-<a href="<!-- insert a link here-->">Register</a>
-<a href="<!-- insert a link here-->">Search</a>
+<a href="LoginPage.html">Login</a>
+<a href="SignupPage.html">Register</a>
+<a href="SearchPage.html">Search</a>
 </div>
 <div class="pagelocation">
 	<h2>Botanical Gardens</h2>
 </div>
 <div class="individualform">
-
+<!--This function finds the location on Google Maps and then makes a window of that location as well as being able to use Google Maps functions in that window.-->
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3552.114118698533!2d153.0270601027357!3d-27.47471483462369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a108730630b%3A0xf02a35bd721b830!2sCity+Botanic+Gardens!5e0!3m2!1sen!2sau!4v1492270436396" width="70%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
 <br>
 
@@ -39,7 +39,7 @@
 </div>
 
 <div class="commentbox">
-<p style="font-size:15px;"> <a href="<!-- insert a link here-->" style="font-size:15px;">Login</a> or <a href="<!-- insert a link here-->" style="font-size:15px;">Sign up</a> to leave a review </p>
+<p style="font-size:15px;"> <a href="LoginPage.html" style="font-size:15px;">Login</a> or <a href="SignupPage.html" style="font-size:15px;">Sign up</a> to leave a review </p>
 </div>
 
 </div>

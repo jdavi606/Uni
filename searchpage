@@ -3,6 +3,9 @@
 <head>
 	<title> Park Reviewer</title>
 <link href="CAB230.css" rel="stylesheet" type="text/css"/> 
+ <script 
+    type="text/javascript" src="CAB230.js">
+ </script>
 <div class="websitetitle">
 <h1> Park Reviewer </h1>
 </div>
@@ -18,21 +21,31 @@
 </div>
 <h1 style = "text-align: center; font-size: 25px;">Search for parks</h1>
 <div class="searchform">
+
 <form>
-	<label for="location">Location:</label> <br>
-	<input type="text" id="location" name="location" style="width: 50%">
-</form> <br><br>
-<label for = "suburb">Suburb:</label> <br>
+	Location:<br>
+	<input type="text" id="location" name="location" required pattern="[A-Za-z\s]+" style="width: 50%" required oninvalid="setCustomValidity('Please enter a valid location name')" >
+<br><br>
+
+	Suburb:<br>
 <select name="Suburb">
  <option value=“Brisbane">Brisbane</option>
  <option value=“Sunnypark">Sunnypark</option>
  <option value=“Springfield">Springfield</option>
 </select> <br><br><br>
-<form>
-	<label for="postcode">Postcode:</label> <br>
-	<input type="text" id="postcode" name="postcode" style="width: 10%">
-</form> <br>
-<input type="Submit" value="Search">
+
+Postcode: <br>
+	<input type="text" id="postcode" name="postcode" style="width: 50px" required pattern= "[0-9]{4}" required>
+	<br><br>
+
+</form> 
+
+<!--The onclick function inside the button form allows the button to link to the results page.-->
+
+<div>
+<input type="submit" onclick="location.href = 'cab230results.html';" value="Search" >
+</div>
+
 </div>
 </body>
 </html>

@@ -12,42 +12,56 @@
         <h1>Park Reviewer</h1>
     </div>
     <div class="navigation">
-	   <a href="<!-- insert a link here-->">Login</a>
-	   <a href="<!-- insert a link here-->">Register</a>
-	   <a href="<!-- insert a link here-->">Search</a>
+	   <a href="LoginPage.html">Login</a>
+	   <a href="SignupPage.html">Register</a>
+	   <a href="SearchPage.html">Search</a>
 	</div>
     <div class="pagelocation">
 		<h2>Sign Up</h2>
 	</div>
     
 <div class="signupform">
-  <form>
+<form>
+<!--The required pattern checks so that there is no numbers in the textbox. This is also applied to the surname-->
 First Name:<br>
-<input type="text" name="Fname" style=margin-top:10px;margin-bottom:20px;width:55%;>
+<input type="text" name="Fname" required pattern= "(^[A-z]+$)" style=margin-top:10px;margin-bottom:20px;width:55%; required>
 <br><br>
-      
+
 Surname:<br>
-<input type="text" name="Surname" style=margin-top:10px;margin-bottom:20px;width:55%;>
+<input type="text" name="Surname" required pattern= "(^[A-z]+$)" style=margin-top:10px;margin-bottom:20px;width:55%; required>
+<br><br>
+
+
+Date Of Birth:<br>
+<input type='date' min="1900-01-01" max="2017-12-31">
+<br><br>
+    
+Gender:<br>
+<input type="radio" style=margin-top:10px;margin-bottom:20px; name="Gender" required>Male
+<input type="radio" style=margin-top:10px;margin-bottom:20px; name="Gender" required>Female
 <br><br>
     
 Email:<br>
-<input type="email" name="emailadd" style=margin-top:10px;margin-bottom:20px;width:100%;>
+<input type="email" name="emailadd" placeholder="example@gmail.com" style=margin-top:10px;margin-bottom:20px;width:100%; required>
 <br><br>
 
 Password:<br>
-<input type="password" name="pass" style=margin-top:10px;margin-bottom:20px;width:75%>
+<!--'required pattern' makes it so that there must be at least one number, one capital and a minimum of 6 characters in the password. The onchange makes sure that the passwords are the same.-->
+<input type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd1" onchange="form.pwd2.pattern = this.value;" placeholder="Minimum 5 characters" minlength="5" style=margin-top:10px;margin-bottom:20px;width:75% required>
 <br><br>
     
 Confirm Password:<br>
-<input type="password" name="passconf" style=margin-top:10px;margin-bottom:20px;width:75%>
+<input type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd2" placeholder="Confirm Password" style=margin-top:10px;margin-bottom:20px;width:75% required>
 <br><br>
       
 <div class="signupbutton">
-<input type="submit" value="Sign Up">  
+<button type="submit">Sign Up</button>
 </div>
       
 </form>  
 </div>
-    
 </body>
+
 </html>
+
+

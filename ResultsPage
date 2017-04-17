@@ -15,7 +15,7 @@
     
     <div class="navigation">
 	   <a href="LoginPage.html">Login</a>
-	   <a href="registration%20page.html">Register</a>
+	   <a href="SignupPage.html">Register</a>
 	   <a href="SearchPage.html">Search</a>
 	</div>
     
@@ -32,7 +32,7 @@
     <th>Rating</th>
         
     <tr>
-    <td><a href="Indiv2.html">Park 1(Indiv2)</a></td>
+    <td><a href="Indiv1.html">Park 1</a></td>
         <td>Brisbane</td>
         <td>(07)********</td>
         <td>4.5</td>
@@ -58,6 +58,7 @@
         <td>(07)********</td>
         <td>3.8</td>
     </tr>
+        
         
     </table>
     </div>

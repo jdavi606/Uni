@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,30 +22,32 @@
 </div>
 <h1 style = "text-align: center; font-size: 25px;">Search for parks</h1>
 <div class="searchform">
-
-<form>
+<!--The action function inside the form allows the it to link to the results page.-->    
+<form action="ResultsPage.html">
 	Location:<br>
-	<input type="text" id="location" name="location" required pattern="[A-Za-z\s]+" style="width: 50%" required oninvalid="setCustomValidity('Please enter a valid location name')" >
+	<input type="text" id="location" name="location" pattern="[A-Za-z\s]+" style="width: 50%" oninvalid="setCustomValidity('Please enter a valid location name')" >
 <br><br>
 
 	Suburb:<br>
 <select name="Suburb">
- <option value=“Brisbane">Brisbane</option>
- <option value=“Sunnypark">Sunnypark</option>
- <option value=“Springfield">Springfield</option>
+ <option value="Brisbane">Brisbane</option>
+ <option value="Sunnypark">Sunnypark</option>
+ <option value="Springfield">Springfield</option>
 </select> <br><br><br>
 
 Postcode: <br>
-	<input type="text" id="postcode" name="postcode" style="width: 50px" required pattern= "[0-9]{4}" required>
+	<input type="text" id="postcode" name="postcode" style="width: 50px" pattern= "[0-9]{4}" required>
 	<br><br>
 
+<div>
+<input type="submit" value="Search" >
+</div>
+    
 </form> 
 
-<!--The onclick function inside the button form allows the button to link to the results page.-->
 
-<div>
-<input type="submit" onclick="location.href = 'ResultsPage.html';" value="Search" >
-</div>
+
+
 
 </div>
 </body>
